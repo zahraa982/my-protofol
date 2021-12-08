@@ -1017,7 +1017,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .deck .card {
     height: 125px;
     width: 125px;
-    background: #80a3c2;
+    background: black;
     font-size: 3em;
     color: #ffffff;
     border-radius: 8px;
