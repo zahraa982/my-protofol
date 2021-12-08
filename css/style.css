@@ -985,3 +985,45 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
       border-bottom: 1px transparent;
       
 }
+
+
+
+/*MY SKILLs*/
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*
+  Deck Cards Style */
+  .deck {
+    width: 660px;
+    min-height: 680px;
+    background: linear-gradient(160deg, #14121383 0%, #211d36b7 100%);
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 #49484d
+    ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3em;
+}
+
+.deck .card {
+    height: 125px;
+    width: 125px;
+    background: #80a3c2;
+    font-size: 3em;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgba(87, 121, 101, 0.5);
+}
