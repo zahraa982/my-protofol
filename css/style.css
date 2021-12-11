@@ -20,11 +20,16 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #691616;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
-
+.front{
+  display: flex;
+ justify-content: space-between;
+align-content: center;
+align-items: center;
+}
 .p-r {
   position: relative;
   color: #fff;
@@ -39,7 +44,7 @@ a:hover {
 }
 
 .color-text-a {
-  color: #e7dfdf;
+  color: #691616;
 }
 
 .box-shadow,
@@ -50,10 +55,7 @@ a:hover {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-.box-shadow-a,
-.button:hover {
-  box-shadow: 0 0 0 4px #cde1f8;
-}
+
 
 .display-5 {
   font-size: 2.5rem;
@@ -85,7 +87,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #691616;
 }
 
 .overlay-mf {
@@ -155,7 +157,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #691616;
   margin: 0 auto;
 }
 
@@ -174,7 +176,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #691616;
   width: 100px;
   bottom: -12px;
 }
@@ -230,69 +232,12 @@ a:hover {
   display: block;
 }
 
-/*------/ Owl Carousel /------*/
-
-.owl-theme .owl-dots {
-  text-align: center;
-  margin-top: 18px;
-}
-
-.owl-theme .owl-dots .owl-dot {
-  display: inline-block;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-  width: 18px;
-  height: 7px;
-  margin: 5px 5px;
-  background: #cde1f8;
-  border: 0px solid #cde1f8;
-  display: block;
-  transition: all 0.6s ease-in-out;
-  cursor: pointer;
-}
-
-.owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #cde1f8;
-}
-
-.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1B1B1B;
-  width: 25px;
-}
-
-/*--/ Scrolltop s /--*/
-
-.scrolltop-mf {
-  position: relative;
-  display: none;
-}
-
-.scrolltop-mf span {
-  z-index: 999;
-  position: fixed;
-  width: 42px;
-  height: 42px;
-  background-color: #0078ff;
-  opacity: .7;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  text-align: center;
-  color: #fff;
-  top: auto;
-  left: auto;
-  right: 30px;
-  bottom: 50px;
-  cursor: pointer;
-  border-radius: 50%;
-}
-
 /* Back to top button */
 
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #691616;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -330,7 +275,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #691616;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -447,15 +392,15 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: #691616;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: #691616;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: #691616;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
@@ -498,13 +443,13 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #0078ff;
+  background-color: #691616;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #0078ff;
+  background-color: #691616;
 }
 
 /*--/ Hamburger Navbar /--*/
@@ -618,7 +563,7 @@ a:hover {
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: #691616;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
@@ -634,44 +579,22 @@ a:hover {
 }
 
 /*======================================
-//--//-->   ABOUT
+//--//-->   SKILLs
 ======================================*/
-
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+#pic img{
+   margin: 3em 0em;
+  height: 100px;
+  width: 100px;
 }
-
-.about-mf .about-img {
-  margin-bottom: 2rem;
+#pic{
+  margin-bottom: 2em;
 }
-
-.about-mf .about-img img {
-  margin-left: 10px;
-}
-
-.skill-mf span {
-  color: #4e4e4e;
-}
-
-.skill-mf .progress {
-  background-color: #cde1f8;
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #0078ff;
-}
-
 /*======================================
 //--//-->   SERVICES
 ======================================*/
 
 .service-box {
-  background-color: rgb(247, 247, 248);
+  background-color: rgb(255, 255, 255);
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -679,7 +602,7 @@ a:hover {
 
 .service-box:hover .ico-circle  {
   transition: all 500ms ease;
-  color: rgb(49, 46, 46);
+  color: #691616;
   background-color: #19191a;
   box-shadow: 0 0 0 10px #f3f4f5;
 }
@@ -987,51 +910,3 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
-
-/*MY SKILLs*/
-
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-/*
-  Deck Cards Style */
-  .deck {
-    width: 460px;
-    min-height: 680px;
-    background: linear-gradient(160deg, #14121383 0%, #211d36b7 100%);
-    padding: 32px;
-    border-radius: 10px;
-    box-shadow: 12px 15px 20px 0 #49484d
-    ;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 0 3em;
-}
-
-.deck .card {
-    height: 120px;
-    width: 120px;
-    background: black;
-    font-size: 3em;
-    color: #ffffff;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 5px 2px 20px 0 rgba(87, 121, 101, 0.5);
-}
-
-
-@media only screen and (max-width: 600px) {
-    deck .card {
-      width:90px;
-    min-height: 90px; 
-    }
-}
